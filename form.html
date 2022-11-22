@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Forms</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form>
+        <table>
+            <tbody>
+                <tr>
+                    <th colspan="2">Student Scholarship Form</th>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        Name of Student:
+                        <input type="text" placeholder="અહિ વિદ્યાર્થી નુ પોતનુ પુરુ નામ આવશે" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        Name of Student(As per Aadhar):
+                        <input type="text" placeholder="અહિ વિદ્યાર્થી નુ પોતનુ પુરુ નામ આવશે" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        Mother's name:
+                        <input type="text" placeholder="અહિ માતાનું નામ અવશે." required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Date of Birth:
+                        <input type="date" name="dob" id="dob" required>
+                </tr>
+                <tr>
+                    <td id="gender">
+                        Gender:
+                        Male<input type="radio" name="gender"><br>
+                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspFemale<input type="radio" name="gender" checked="checked">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Category:
+                        <select name="Category" id="" required>
+                            <option value="SEBC">SEBC</option>
+                            <option value="SC">SC</option>
+                            <option value="ST">ST</option>
+                            <option value="EBC">EBC</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Religion:
+                        <input id="side" type="text" placeholder="religion" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        Caste:
+                        <input type="text" placeholder="Caste" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Mobile Number:
+                        <input type="tel" placeholder="123-456-7890" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Aadhar Number:
+                        <input type="text" placeholder="1234 5678 9101" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Is Orphan:
+                        <select name="Orphan" id="" required>
+                            <option value="Yes">Yes</option>
+                            <option value="No" selected>No</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Maritial Status:
+                        <select name="Status" id="">
+                            <option value="Unmarried" selected>Unmarried</option>
+                            <option value="Married">Married</option>
+                        </select>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
