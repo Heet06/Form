@@ -1,44 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>Forms</title>
+    <title>Demo-Form</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <form>
+    <form action="file.html" method="post">
         <table>
             <tbody>
                 <tr>
-                    <th colspan="2">Student Scholarship Form</th>
+                    <th colspan="2">Demo-Form</th>
                 </tr>
                 <tr>
                     <td colspan="2">
-                        Name of Student:
-                        <input type="text" placeholder="અહિ વિદ્યાર્થી નુ પોતનુ પુરુ નામ આવશે" required>
+                        Name:
+                        <input type="text" placeholder="Fill up your name here" required>
                     </td>
                 </tr>
                 <tr>
                     <td colspan="2">
-                        Name of Student(As per Aadhar):
-                        <input type="text" placeholder="અહિ વિદ્યાર્થી નુ પોતનુ પુરુ નામ આવશે" required>
+                        Class:
+                        <select name="class" required>
+                            <option value="9th">9th</option>
+                            <option value="10th">10th</option>
+                            <option value="11th">11th</option>
+                            <option value="12th">12th</option>
+                        </select>
                     </td>
                 </tr>
                 <tr>
                     <td colspan="2">
-                        Mother's name:
-                        <input type="text" placeholder="અહિ માતાનું નામ અવશે." required>
+                        Division:
+                        A<input type="radio" value="A">
+                        B<input type="radio" value="B">
+                        C<input type="radio" value="C">
+                        D<input type="radio" value="D">
+                        E<input type="radio" value="E>"
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        Date of Birth:
-                        <input type="date" name="dob" id="dob" required>
+                        Stream:
+                        <input type="date" name="dob" id="Select Stream" required>
                 </tr>
                 <tr>
                     <td id="gender">
                         Gender:
                         Male<input type="radio" name="gender"><br>
-                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspFemale<input type="radio" name="gender" checked="checked">
+                        Female<input type="radio" name="gender" checked="checked">
                     </td>
                 </tr>
                 <tr>
@@ -99,4 +110,5 @@
         </table>
     </form>
 </body>
+
 </html>
